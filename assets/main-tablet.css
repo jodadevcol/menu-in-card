@@ -1,0 +1,8 @@
+.card-secondary {
+  display: flex;
+  flex-direction: row;
+}
+.card-secondary-access {
+  width: 50%;
+  list-style: none;
+}

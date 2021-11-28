@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: #e5e5e5;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.main-ellipse {
+  position: absolute;
+  width: 450px;
+  height: 450px;
+  background: #e0e7f8;
+}
+.main-menu-card {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+.menu-card-container {
+  width: 80%;
+  min-width: 290px;
+  max-width: 555px;
+  height: auto;
+  margin: 0 auto;
+  padding: 25px;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+.card-first {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 20px;
+  background-color: #626cd6;
+  border-radius: 10px;
+  box-shadow: 0px 16px 25px -10px rgba(83, 92, 181, 0.25);
+}
+.card-first--title {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.card-first--body {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 24px;
+  color: #ffffff;
+}
+.btn {
+  padding: 10px 15px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 24px;
+  border: none;
+  border-radius: 5px;
+  transition: ease-in-out all 0.4s;
+  background-color: #ffffff;
+  color: #262040;
+}
+.card-first--btn {
+  width: 122px;
+  margin-top: 20px;
+  align-self: end;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.btn.card-first--btn:hover {
+  color: #626cd6;
+}
+.card-secondary {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 28px;
+}
+.card-secondary-access {
+  width: 100%;
+  list-style: none;
+}
+.card-secondary-access .access--title {
+  padding: 10px 15px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #6f7189;
+}
+.card-secondary-access .access--option {
+  padding: 10px 15px;
+  transition: ease-in-out all 0.4s;
+  background-color: transparent;
+  border-radius: 5px;
+}
+.card-secondary-access .access--option:hover {
+  background-color: #f1f2ff;
+}
+.card-secondary-access .access--option a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #171228;
+}
